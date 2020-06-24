@@ -17,7 +17,7 @@ app.use(function (req, res, next) {
   next(err);
 });
 
-// app.use(errorHandler);
+app.use(errorHandler);
 
 app.listen(PORT, function () {
   console.log(`Server is starting on port ${PORT}`);
