@@ -1,2 +1,3 @@
 npm install -y
-npm install express bcrypt body-parser mongoose jsonwebtoken cors
+npm install express body-parser mongoose jsonwebtoken cors
+npm install bcryptjs
