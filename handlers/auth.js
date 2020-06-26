@@ -1,7 +1,12 @@
 const db = require("../models/index");
 const jwt = require("jsonwebtoken");
 
-exports.signin = async function (req, res, next) {};
+exports.signin = async function (req, res, next) {
+  //finding a user
+  //checking if their password matches what was sent to the server
+  //if it all matches
+  //log them in
+};
 
 exports.signup = async function (req, res, next) {
   try {

@@ -17,3 +17,8 @@ This app was built using following javascript libraries and frameworks.
 npm install -y
 
 npm install express body-parser mongoose jsonwebtoken cors bcryptjs dotenv httpie
+
+Test
+node index.js
+http POST localhost:8081/api/auth/signup
+http POST localhost:8081/api/auth/signup username=rico password=rico1 email=rico1
