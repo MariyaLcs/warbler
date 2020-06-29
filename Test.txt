@@ -1,0 +1,17 @@
+Test with HTTPie
+
+node index.js
+http POST localhost:8081/api/auth/signup
+
+http POST localhost:8081/api/auth/signup username=rico7 password=rico7 email=rico7
+http POST localhost:8081/api/auth/signin username=rico6 password=rico6 email=rico6
+
+http POST localhost:8081/api/users/5ef9ee7228a7484050a213d7/messages text=HOHOHO
+
+{
+"id": "5ef9fc642635a240e801c9cd",
+"token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlZjlmYzY0MjYzNWEyNDBlODAxYzljZCIsInVzZXJuYW1lIjoicmljbzciLCJpYXQiOjE1OTM0NDE0MjB9.kGYR3HP06nGKWcubV-iWkbTNq_YjRwj8YOKpDnk2v5A",
+"username": "rico7"
+}
+
+http POST localhost:8081/api/users/5ef9fc642635a240e801c9cd/messages "Authorization:Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjVlZjlmYzY0MjYzNWEyNDBlODAxYzljZCIsInVzZXJuYW1lIjoicmljbzciLCJpYXQiOjE1OTM0NDE0MjB9.kGYR3HP06nGKWcubV-iWkbTNq_YjRwj8YOKpDnk2v5A" text=hohoho
