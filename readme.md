@@ -25,6 +25,5 @@ http POST localhost:8081/api/auth/signup
 http POST localhost:8081/api/auth/signup username=rico6 password=rico6 email=rico6
 http POST localhost:8081/api/auth/signin username=rico6 password=rico6 email=rico6
 
-<!-- http POST localhost:8081/api/users/5ef9ee7228a7484050a213d7/messages text="HOHOHO"
+http POST localhost:8081/api/users/5ef9ee7228a7484050a213d7/messages text=HOHOHO
 http GET localhost:8081/api/users/5ef9ee7228a7484050a213d7/messages
- -->
