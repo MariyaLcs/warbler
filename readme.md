@@ -21,4 +21,10 @@ npm install express body-parser mongoose jsonwebtoken cors bcryptjs dotenv httpi
 Test
 node index.js
 http POST localhost:8081/api/auth/signup
-http POST localhost:8081/api/auth/signup username=rico password=rico1 email=rico1
+
+http POST localhost:8081/api/auth/signup username=rico6 password=rico6 email=rico6
+http POST localhost:8081/api/auth/signin username=rico6 password=rico6 email=rico6
+
+<!-- http POST localhost:8081/api/users/5ef9ee7228a7484050a213d7/messages text="HOHOHO"
+http GET localhost:8081/api/users/5ef9ee7228a7484050a213d7/messages
+ -->
