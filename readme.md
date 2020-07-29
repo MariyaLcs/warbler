@@ -1,8 +1,7 @@
 # Warbler Server
 
 This is the server for Warbler client. This app was built using Express web application framework. Warbler server handles all user
-authentication and CRUD operations related to users and messages. User and message data are stored in a MongoDB database which is
-hosted on [mLab](https://mlab.com/). The project is based on the idea of Twitter. Its purpose is to share messages with other users. Main functionality, sign up page, viewing all users' messages, add a new message, remove message.
+authentication and CRUD operations related to users and messages. User and message data are stored in a MongoDB database. The project is based on the idea of Twitter. Its purpose is to share messages with other users. Main functionality, sign up page, viewing all users' messages, add a new message, remove message.
 
 This app was built using following javascript libraries and frameworks.
 
@@ -14,6 +13,4 @@ This app was built using following javascript libraries and frameworks.
 - [dotenv](https://www.npmjs.com/package/dotenv) - This library is used to load environment variables from a .env file.
 - [bcrypt](https://www.npmjs.com/package/bcrypt) - This library is used to hash passwords. \*Changed for bcryptjs
 
-npm install -y
 
-npm install express body-parser mongoose jsonwebtoken cors bcryptjs dotenv httpie
